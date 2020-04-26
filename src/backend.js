@@ -4,7 +4,7 @@ class Creeper {
     this.onInstalled()
   }
   onInstalled () {
-    chrome.runtime.onInstalled.addListener(function() {
+    chrome.runtime.onInstalled.addListener(() => {
       console.log('Installed')
     });
   }
