@@ -101,8 +101,8 @@ class Creeper {
       $('div[data-testid="conversation"]').map((index, msgElm) => {
         const msg = new CreeperMessage(msgElm)
         if (!that.usernames.has(msg.username)) {
-          that.usernames.add(msg.username);
-          that.messages.push(msg);
+          that.usernames.add(msg.username)
+          that.messages.push(msg)
         }
       })
     }, 2000)
