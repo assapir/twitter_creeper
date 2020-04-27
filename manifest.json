@@ -1,6 +1,6 @@
 {
   "name": "Twitter Creeper",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Mark and report DM creeps",
   "manifest_version": 2,
   "permissions": ["activeTab"],

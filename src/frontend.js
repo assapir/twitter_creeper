@@ -86,7 +86,7 @@ class Creeper {
         if (username.indexOf('@') > -1) {
           if (data.creeps[username] > 0) {
             console.log('creep:', 'marking', username)
-            let elm = $('div[data-testid="conversation"]:contains(' + username+')')
+            let elm = $(`div[data-testid="conversation"]:contains(${username})`)
             let message = new CreeperMessage(elm)
             message.createCreepCounter(data.creeps[username])
             message.markAsCreeper()
